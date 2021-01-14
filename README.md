@@ -1,5 +1,7 @@
 # Node JWT Vault
 
+![npm (scoped)](https://img.shields.io/npm/v/@applicazza/node-jwt-vault)
+
 ## Description
 
 Create, sign and validate JWT tokens with Hashicorp Vault
