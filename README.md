@@ -1,6 +1,6 @@
 # Node JWT Vault
 
-![npm (scoped)](https://img.shields.io/npm/v/@applicazza/node-jwt-vault)
+[![npm (scoped)](https://img.shields.io/npm/v/@applicazza/node-jwt-vault)](https://www.npmjs.com/package/@applicazza/node-jwt-vault)
 
 ## Description
 
