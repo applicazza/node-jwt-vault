@@ -2,6 +2,8 @@
 
 ## Description
 
+Create, sign and validate JWT tokens with Hashicorp Vault
+
 ## Installation
 
 ```shell
