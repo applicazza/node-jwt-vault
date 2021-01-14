@@ -59,10 +59,16 @@ Read more about OpenAPIClientAxios [here](https://github.com/anttiviljami/openap
 * Create and sign token
 
 ```typescript
-import { Algorithms, signToken, verifyToken } from '@applicazza/node-jwt-vault';
+import { Algorithms, Claims, signToken, verifyToken } from '@applicazza/node-jwt-vault';
+
+const claims: Claims = {
+    [KnownClaims.Subject]: '1',
+    'custom': 'value',
+    'another_custom': 'another_value',
+};
 
 const token = await signToken({
-    algorithm: Algorithms.ES384,
+    algorithm: Algorithms.RS256,
     claims,
     keyName,
     vaultClient,
